@@ -1,0 +1,222 @@
+= Life
+
+AD 95, assumed
+
+// - link:foo.txt[foo txt]
+// - link:foo.html[foo html]
+// - link:life.ad.txt[life txt]
+// - link:life.ad.html[life html ]
+- link:life_ad.txt[life_ad txt]
+- link:life_ad.html[life_ad html]
+- link:life.rimu.txt[life rimu txt]
+- link:life.rimu.html[life rimu html]
+
+.Life: Synopsis
+[cols=">1,12", borders="none"]
+|===
+| link:life_ad.html#Section1[1]
+|
+| link:life_ad.html#Section2[2]
+|
+| link:life_ad.html#Section3[3]
+| The Visit to Rome
+| link:life_ad.html#Section4[4]
+| The return, finding the Jewish Revolt had begun.
+| link:life_ad.html#Section5[5]
+| The retreat into the inner court of the Temple
+| link:life_ad.html#Section6[6]
+| The defeat of the Roman commander Gessius
+| link:life_ad.html#Section7[7]
+|
+| link:life_ad.html#Section8[8]
+| Josephus goes to Galilee to try and calm the revolutionaries there. 
+| link:life_ad.html#Section9[9]
+| A description of the town leaders in Tiberius
+
+| link:life_ad.html#Section10[10]
+| The situation in Gischala. John of Gischala tries to restrain the revolt.
+| link:life_ad.html#Section11[11]
+| The situation in Gamala. Gamala remains loyal to the Romans.
+| link:life_ad.html#Section12[12]
+| Josephus writes to the Sanhedrin in Jerusalem, asking for advice. Josephus leaves Sepphoris and goes to Bethmaus, outside Tiberius. He tells Justus that he has been requested to destroy the figures of living creatures on the palace of Herod the Tetrarch.
+
+Jesus, the leader of the sailors and the poor, sets fire to the Palace. ( I bring not peace but a sword, to throw fire upon the world. ) The party of Jesus kill all the Greeks in Tiberias.
+| link:life_ad.html#Section13[13]
+| Josephus rescues the furniture from the Palace. John of Gischala is now for the War. John makes money from selling Olive Oil to the Jews of Gischala.
+| link:life_ad.html#Section14[14]
+|
+| link:life_ad.html#Section15[15]
+|
+| link:life_ad.html#Section16[16]
+| John of Gischala comes to Tiberias to take the hot baths, while Josephus is living in Cana.
+| link:life_ad.html#Section17[17]
+| John plots a revolt against Josephus. Silas, the Governor of Tiberias warns Josephus of it. Josephus tells the people of Tiberius not to revolt.
+| link:life_ad.html#Section18[18]
+| Josephus flees Tiberias on a ship and sails to Tarichese.
+| link:life_ad.html#Section19[19]
+| The Galileans want Josephus to take revenge on Tiberius. Josephus refuses.
+
+| link:life_ad.html#Section20[20]
+|
+| link:life_ad.html#Section21[21]
+|
+| link:life_ad.html#Section22[22]
+|
+| link:life_ad.html#Section23[23]
+|
+| link:life_ad.html#Section24[24]
+|
+| link:life_ad.html#Section25[25]
+|
+| link:life_ad.html#Section26[26]
+|
+| link:life_ad.html#Section27[27]
+|
+| link:life_ad.html#Section28[28]
+|
+| link:life_ad.html#Section29[29]
+|
+
+| link:life_ad.html#Section30[30]
+|
+
+| link:life_ad.html#Section31[31]
+|
+
+| link:life_ad.html#Section32[32]
+|
+
+| link:life_ad.html#Section33[33]
+|
+
+| link:life_ad.html#Section34[34]
+|
+
+| link:life_ad.html#Section35[35]
+|
+
+| link:life_ad.html#Section36[36]
+|
+
+| link:life_ad.html#Section37[37]
+|
+
+| link:life_ad.html#Section38[38]
+|
+
+| link:life_ad.html#Section39[39]
+|
+
+| link:life_ad.html#Section40[40]
+|
+
+| link:life_ad.html#Section41[41]
+|
+
+| link:life_ad.html#Section42[42]
+|
+
+| link:life_ad.html#Section43[43]
+|
+
+| link:life_ad.html#Section44[44]
+|
+
+| link:life_ad.html#Section45[45]
+|
+
+| link:life_ad.html#Section46[46]
+|
+
+| link:life_ad.html#Section47[47]
+|
+
+| link:life_ad.html#Section48[48]
+|
+
+| link:life_ad.html#Section49[49]
+|
+
+| link:life_ad.html#Section50[50]
+|
+
+| link:life_ad.html#Section51[51]
+|
+
+| link:life_ad.html#Section52[52]
+|
+
+| link:life_ad.html#Section53[53]
+|
+
+| link:life_ad.html#Section54[54]
+|
+
+| link:life_ad.html#Section55[55]
+|
+
+| link:life_ad.html#Section56[56]
+| Ananias tries to capture Josephus at a prayer gathering. John to attend and help in the capture of Josephus.
+
+| link:life_ad.html#Section57[57]
+| Jesus guards the door entering the Proseucha ( Synagogue ).
+
+
+| link:life_ad.html#Section58[58]
+| Jonathan: What has become of the 20 pieces of gold? Josephus offers to repay the 20 pieces of gold. Josephus is about to be stoned, but is saved by his friends.
+
+| link:life_ad.html#Section59[59]
+| John flees John again by sailing to Tarichese. The Gailileans want Josephus to take revenge upon John. John returns to Gischala.
+
+| link:life_ad.html#Section60[60]
+| ( Ananus, Simon the son of Gamaliel ).
+
+| link:life_ad.html#Section61[61]
+| Jonathan and Ananias will go to Jerusalem to accuse Josephus.
+
+| link:life_ad.html#Section62[62]
+| The people of Tiberias mock Josephus by making a bier for him, and mourning his death in jest.
+
+| link:life_ad.html#Section63[63]
+| Josephus captures Simon.
+
+| link:life_ad.html#Section64[64]
+| Josephus sends Jonathan, Ananias, Simon and Joazar to Jerusalem.
+
+| link:life_ad.html#Section65[65]
+| A restrained rant against Justus's account. Justus accused Josephus of being the author of the revolt. But Josephus says that the city of Tiberius had attacked the Decapolis before he ever became governor of Galilee. And that the people of the Decapolis themselves accused Justus of being the author of the attack on them. Justus only survived punishment by the appeal of Agrippa and Berenice. Sephoris remained loyal to Rome.
+
+| link:life_ad.html#Section66[66]
+| The Galileans counsel Josephus to march on John. Josephus prefers to let the followers of John repent. He gives them 20 days to repent. Four thousand followers of John come over to Josephus.
+
+| link:life_ad.html#Section67[67]
+| Sephoris tries to get the Roman commander Cestius Gallus to come to their aid. Josephus attacks and takes Sephoris. But then the Galileans take advantage of this to attack and plunder Sephoris themselves. Josephus tries to stop their plundering but cannot. He spreads a rumor that the Romans are coming in order to stop the plundering.
+
+| link:life_ad.html#Section68[68]
+|
+
+| link:life_ad.html#Section69[69]
+|
+
+| link:life_ad.html#Section70[70]
+|
+
+| link:life_ad.html#Section71[71]
+|
+
+| link:life_ad.html#Section72[72]
+|
+
+| link:life_ad.html#Section73[73]
+|
+
+| link:life_ad.html#Section74[74]
+|
+
+| link:life_ad.html#Section75[75]
+| After the siege of Jotapa, Josephus goes to Alexandria, but returns to Jerusalem with Titus. Josephus gets many friends released from captivity. In Thecoa, he has three friends taken down from the cross.
+| link:life_ad.html#Section76[76]
+| Josephus goes to Rome with Titus and is rewarded, by Vespasian, Titus and Domitian, but he has many accusers.
+
+|===
+

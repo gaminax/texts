@@ -1,0 +1,40 @@
+= Josephus 75 AD War
+
+
+link:../../index.txt[Religion/]
+link:../index.txt[Texts/]
+Josephus0090War
+
+The Wars of the Jews, +
+or, History of the Destruction of Jerusalem +
+by Flavius Josephus +
+Translated by William Whiston
+
+
+[cols="1,2,3"]
+|===
+| link:book00-prefacerr.html[Preface]
+|
+|
+| link:book01rr.html[Book One]
+| 171BC, 167 years
+| From the taking of Jerusalem by Antiochus Epiphanes
+| link:book02rr.html[Book Two]
+| 4BC, 69 Years
+| From the death of Herod the Great
+| link:book03rr.html[Book Three]
+| 67AD, One Year
+| The Arrival of Vespasian in Galilee
+| link:book04rr.html[Book Four]
+| 68AD, One Year
+| The Siege of Gamala
+| link:book05rr.html[Book Five]
+| 69AD, Six Months
+| The Siege of Jerusalem
+| link:book06rr.html[Book Six]
+| 70AD, One Month
+| The Capture of Jerusalem
+| link:book07rr.html[Book Seven]
+| 70AD, Three Years
+|
+|===

@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+<meta name="generator" content="AsciiDoc 8.6.10" />
+<title></title>
+<style type="text/css">
+/* Shared CSS for AsciiDoc xhtml11 and html5 backends */
+
+/* Default font. */
+body {
+  font-family: Georgia,serif;
+}
+
+/* Title font. */
+h1, h2, h3, h4, h5, h6,
+div.title, caption.title,
+thead, p.table.header,
+#toctitle,
+#author, #revnumber, #revdate, #revremark,
+#footer {
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+body {
+  margin: 1em 5% 1em 5%;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+a:visited {
+  color: fuchsia;
+}
+
+em {
+  font-style: italic;
+  color: navy;
+}
+
+strong {
+  font-weight: bold;
+  color: #083194;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #527bbd;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+h1, h2, h3 {
+  border-bottom: 2px solid silver;
+}
+h2 {
+  padding-top: 0.5em;
+}
+h3 {
+  float: left;
+}
+h3 + * {
+  clear: left;
+}
+h5 {
+  font-size: 1.0em;
+}
+
+div.sectionbody {
+  margin-left: 0;
+}
+
+hr {
+  border: 1px solid silver;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+ul, ol, li > p {
+  margin-top: 0;
+}
+ul > li     { color: #aaa; }
+ul > li > * { color: black; }
+
+.monospaced, code, pre {
+  font-family: "Courier New", Courier, monospace;
+  font-size: inherit;
+  color: navy;
+  padding: 0;
+  margin: 0;
+}
+pre {
+  white-space: pre-wrap;
+}
+
+#author {
+  color: #527bbd;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+#email {
+}
+#revnumber, #revdate, #revremark {
+}
+
+#footer {
+  font-size: small;
+  border-top: 2px solid silver;
+  padding-top: 0.5em;
+  margin-top: 4.0em;
+}
+#footer-text {
+  float: left;
+  padding-bottom: 0.5em;
+}
+#footer-badges {
+  float: right;
+  padding-bottom: 0.5em;
+}
+
+#preamble {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+div.imageblock, div.exampleblock, div.verseblock,
+div.quoteblock, div.literalblock, div.listingblock, div.sidebarblock,
+div.admonitionblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+div.admonitionblock {
+  margin-top: 2.0em;
+  margin-bottom: 2.0em;
+  margin-right: 10%;
+  color: #606060;
+}
+
+div.content { /* Block element content. */
+  padding: 0;
+}
+
+/* Block element titles. */
+div.title, caption.title {
+  color: #527bbd;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 1.0em;
+  margin-bottom: 0.5em;
+}
+div.title + * {
+  margin-top: 0;
+}
+
+td div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content + div.title {
+  margin-top: 0.0em;
+}
+
+div.sidebarblock > div.content {
+  background: #ffffee;
+  border: 1px solid #dddddd;
+  border-left: 4px solid #f0f0f0;
+  padding: 0.5em;
+}
+
+div.listingblock > div.content {
+  border: 1px solid #dddddd;
+  border-left: 5px solid #f0f0f0;
+  background: #f8f8f8;
+  padding: 0.5em;
+}
+
+div.quoteblock, div.verseblock {
+  padding-left: 1.0em;
+  margin-left: 1.0em;
+  margin-right: 10%;
+  border-left: 5px solid #f0f0f0;
+  color: #888;
+}
+
+div.quoteblock > div.attribution {
+  padding-top: 0.5em;
+  text-align: right;
+}
+
+div.verseblock > pre.content {
+  font-family: inherit;
+  font-size: inherit;
+}
+div.verseblock > div.attribution {
+  padding-top: 0.75em;
+  text-align: left;
+}
+/* DEPRECATED: Pre version 8.2.7 verse style literal block. */
+div.verseblock + div.attribution {
+  text-align: left;
+}
+
+div.admonitionblock .icon {
+  vertical-align: top;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #527bbd;
+  padding-right: 0.5em;
+}
+div.admonitionblock td.content {
+  padding-left: 0.5em;
+  border-left: 3px solid #dddddd;
+}
+
+div.exampleblock > div.content {
+  border-left: 3px solid #dddddd;
+  padding-left: 0.5em;
+}
+
+div.imageblock div.content { padding-left: 0; }
+span.image img { border-style: none; vertical-align: text-bottom; }
+a.image:visited { color: white; }
+
+dl {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+dt {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-style: normal;
+  color: navy;
+}
+dd > *:first-child {
+  margin-top: 0.1em;
+}
+
+ul, ol {
+    list-style-position: outside;
+}
+ol.arabic {
+  list-style-type: decimal;
+}
+ol.loweralpha {
+  list-style-type: lower-alpha;
+}
+ol.upperalpha {
+  list-style-type: upper-alpha;
+}
+ol.lowerroman {
+  list-style-type: lower-roman;
+}
+ol.upperroman {
+  list-style-type: upper-roman;
+}
+
+div.compact ul, div.compact ol,
+div.compact p, div.compact p,
+div.compact div, div.compact div {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+tfoot {
+  font-weight: bold;
+}
+td > div.verse {
+  white-space: pre;
+}
+
+div.hdlist {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+div.hdlist tr {
+  padding-bottom: 15px;
+}
+dt.hdlist1.strong, td.hdlist1.strong {
+  font-weight: bold;
+}
+td.hdlist1 {
+  vertical-align: top;
+  font-style: normal;
+  padding-right: 0.8em;
+  color: navy;
+}
+td.hdlist2 {
+  vertical-align: top;
+}
+div.hdlist.compact tr {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.comment {
+  background: yellow;
+}
+
+.footnote, .footnoteref {
+  font-size: 0.8em;
+}
+
+span.footnote, span.footnoteref {
+  vertical-align: super;
+}
+
+#footnotes {
+  margin: 20px 0 20px 0;
+  padding: 7px 0 0 0;
+}
+
+#footnotes div.footnote {
+  margin: 0 0 5px 0;
+}
+
+#footnotes hr {
+  border: none;
+  border-top: 1px solid silver;
+  height: 1px;
+  text-align: left;
+  margin-left: 0;
+  width: 20%;
+  min-width: 100px;
+}
+
+div.colist td {
+  padding-right: 0.5em;
+  padding-bottom: 0.3em;
+  vertical-align: top;
+}
+div.colist td img {
+  margin-top: 0.3em;
+}
+
+@media print {
+  #footer-badges { display: none; }
+}
+
+#toc {
+  margin-bottom: 2.5em;
+}
+
+#toctitle {
+  color: #527bbd;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 1.0em;
+  margin-bottom: 0.1em;
+}
+
+div.toclevel0, div.toclevel1, div.toclevel2, div.toclevel3, div.toclevel4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div.toclevel2 {
+  margin-left: 2em;
+  font-size: 0.9em;
+}
+div.toclevel3 {
+  margin-left: 4em;
+  font-size: 0.9em;
+}
+div.toclevel4 {
+  margin-left: 6em;
+  font-size: 0.9em;
+}
+
+span.aqua { color: aqua; }
+span.black { color: black; }
+span.blue { color: blue; }
+span.fuchsia { color: fuchsia; }
+span.gray { color: gray; }
+span.green { color: green; }
+span.lime { color: lime; }
+span.maroon { color: maroon; }
+span.navy { color: navy; }
+span.olive { color: olive; }
+span.purple { color: purple; }
+span.red { color: red; }
+span.silver { color: silver; }
+span.teal { color: teal; }
+span.white { color: white; }
+span.yellow { color: yellow; }
+
+span.aqua-background { background: aqua; }
+span.black-background { background: black; }
+span.blue-background { background: blue; }
+span.fuchsia-background { background: fuchsia; }
+span.gray-background { background: gray; }
+span.green-background { background: green; }
+span.lime-background { background: lime; }
+span.maroon-background { background: maroon; }
+span.navy-background { background: navy; }
+span.olive-background { background: olive; }
+span.purple-background { background: purple; }
+span.red-background { background: red; }
+span.silver-background { background: silver; }
+span.teal-background { background: teal; }
+span.white-background { background: white; }
+span.yellow-background { background: yellow; }
+
+span.big { font-size: 2em; }
+span.small { font-size: 0.6em; }
+
+span.underline { text-decoration: underline; }
+span.overline { text-decoration: overline; }
+span.line-through { text-decoration: line-through; }
+
+div.unbreakable { page-break-inside: avoid; }
+
+
+/*
+ * xhtml11 specific
+ *
+ * */
+
+div.tableblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+div.tableblock > table {
+  border: 3px solid #527bbd;
+}
+thead, p.table.header {
+  font-weight: bold;
+  color: #527bbd;
+}
+p.table {
+  margin-top: 0;
+}
+/* Because the table frame attribute is overriden by CSS in most browsers. */
+div.tableblock > table[frame="void"] {
+  border-style: none;
+}
+div.tableblock > table[frame="hsides"] {
+  border-left-style: none;
+  border-right-style: none;
+}
+div.tableblock > table[frame="vsides"] {
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+
+/*
+ * html5 specific
+ *
+ * */
+
+table.tableblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+thead, p.tableblock.header {
+  font-weight: bold;
+  color: #527bbd;
+}
+p.tableblock {
+  margin-top: 0;
+}
+table.tableblock {
+  border-width: 3px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-color: #527bbd;
+  border-collapse: collapse;
+}
+th.tableblock, td.tableblock {
+  border-width: 1px;
+  padding: 4px;
+  border-style: solid;
+  border-color: #527bbd;
+}
+
+table.tableblock.frame-topbot {
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+table.tableblock.frame-sides {
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+}
+table.tableblock.frame-none {
+  border-style: hidden;
+}
+
+th.tableblock.halign-left, td.tableblock.halign-left {
+  text-align: left;
+}
+th.tableblock.halign-center, td.tableblock.halign-center {
+  text-align: center;
+}
+th.tableblock.halign-right, td.tableblock.halign-right {
+  text-align: right;
+}
+
+th.tableblock.valign-top, td.tableblock.valign-top {
+  vertical-align: top;
+}
+th.tableblock.valign-middle, td.tableblock.valign-middle {
+  vertical-align: middle;
+}
+th.tableblock.valign-bottom, td.tableblock.valign-bottom {
+  vertical-align: bottom;
+}
+
+
+/*
+ * manpage specific
+ *
+ * */
+
+body.manpage h1 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+}
+body.manpage h2 {
+  border-style: none;
+}
+body.manpage div.sectionbody {
+  margin-left: 3em;
+}
+
+@media print {
+  body.manpage div#toc { display: none; }
+}
+
+
+</style>
+<script type="text/javascript">
+/*<![CDATA[*/
+var asciidoc = {  // Namespace.
+
+/////////////////////////////////////////////////////////////////////
+// Table Of Contents generator
+/////////////////////////////////////////////////////////////////////
+
+/* Author: Mihai Bazon, September 2002
+ * http://students.infoiasi.ro/~mishoo
+ *
+ * Table Of Content generator
+ * Version: 0.4
+ *
+ * Feel free to use this script under the terms of the GNU General Public
+ * License, as long as you do not remove or alter this notice.
+ */
+
+ /* modified by Troy D. Hanson, September 2006. License: GPL */
+ /* modified by Stuart Rackham, 2006, 2009. License: GPL */
+
+// toclevels = 1..4.
+toc: function (toclevels) {
+
+  function getText(el) {
+    var text = "";
+    for (var i = el.firstChild; i != null; i = i.nextSibling) {
+      if (i.nodeType == 3 /* Node.TEXT_NODE */) // IE doesn't speak constants.
+        text += i.data;
+      else if (i.firstChild != null)
+        text += getText(i);
+    }
+    return text;
+  }
+
+  function TocEntry(el, text, toclevel) {
+    this.element = el;
+    this.text = text;
+    this.toclevel = toclevel;
+  }
+
+  function tocEntries(el, toclevels) {
+    var result = new Array;
+    var re = new RegExp('[hH]([1-'+(toclevels+1)+'])');
+    // Function that scans the DOM tree for header elements (the DOM2
+    // nodeIterator API would be a better technique but not supported by all
+    // browsers).
+    var iterate = function (el) {
+      for (var i = el.firstChild; i != null; i = i.nextSibling) {
+        if (i.nodeType == 1 /* Node.ELEMENT_NODE */) {
+          var mo = re.exec(i.tagName);
+          if (mo && (i.getAttribute("class") || i.getAttribute("className")) != "float") {
+            result[result.length] = new TocEntry(i, getText(i), mo[1]-1);
+          }
+          iterate(i);
+        }
+      }
+    }
+    iterate(el);
+    return result;
+  }
+
+  var toc = document.getElementById("toc");
+  if (!toc) {
+    return;
+  }
+
+  // Delete existing TOC entries in case we're reloading the TOC.
+  var tocEntriesToRemove = [];
+  var i;
+  for (i = 0; i < toc.childNodes.length; i++) {
+    var entry = toc.childNodes[i];
+    if (entry.nodeName.toLowerCase() == 'div'
+     && entry.getAttribute("class")
+     && entry.getAttribute("class").match(/^toclevel/))
+      tocEntriesToRemove.push(entry);
+  }
+  for (i = 0; i < tocEntriesToRemove.length; i++) {
+    toc.removeChild(tocEntriesToRemove[i]);
+  }
+
+  // Rebuild TOC entries.
+  var entries = tocEntries(document.getElementById("content"), toclevels);
+  for (var i = 0; i < entries.length; ++i) {
+    var entry = entries[i];
+    if (entry.element.id == "")
+      entry.element.id = "_toc_" + i;
+    var a = document.createElement("a");
+    a.href = "#" + entry.element.id;
+    a.appendChild(document.createTextNode(entry.text));
+    var div = document.createElement("div");
+    div.appendChild(a);
+    div.className = "toclevel" + entry.toclevel;
+    toc.appendChild(div);
+  }
+  if (entries.length == 0)
+    toc.parentNode.removeChild(toc);
+},
+
+
+/////////////////////////////////////////////////////////////////////
+// Footnotes generator
+/////////////////////////////////////////////////////////////////////
+
+/* Based on footnote generation code from:
+ * http://www.brandspankingnew.net/archive/2005/07/format_footnote.html
+ */
+
+footnotes: function () {
+  // Delete existing footnote entries in case we're reloading the footnodes.
+  var i;
+  var noteholder = document.getElementById("footnotes");
+  if (!noteholder) {
+    return;
+  }
+  var entriesToRemove = [];
+  for (i = 0; i < noteholder.childNodes.length; i++) {
+    var entry = noteholder.childNodes[i];
+    if (entry.nodeName.toLowerCase() == 'div' && entry.getAttribute("class") == "footnote")
+      entriesToRemove.push(entry);
+  }
+  for (i = 0; i < entriesToRemove.length; i++) {
+    noteholder.removeChild(entriesToRemove[i]);
+  }
+
+  // Rebuild footnote entries.
+  var cont = document.getElementById("content");
+  var spans = cont.getElementsByTagName("span");
+  var refs = {};
+  var n = 0;
+  for (i=0; i<spans.length; i++) {
+    if (spans[i].className == "footnote") {
+      n++;
+      var note = spans[i].getAttribute("data-note");
+      if (!note) {
+        // Use [\s\S] in place of . so multi-line matches work.
+        // Because JavaScript has no s (dotall) regex flag.
+        note = spans[i].innerHTML.match(/\s*\[([\s\S]*)]\s*/)[1];
+        spans[i].innerHTML =
+          "[<a id='_footnoteref_" + n + "' href='#_footnote_" + n +
+          "' title='View footnote' class='footnote'>" + n + "</a>]";
+        spans[i].setAttribute("data-note", note);
+      }
+      noteholder.innerHTML +=
+        "<div class='footnote' id='_footnote_" + n + "'>" +
+        "<a href='#_footnoteref_" + n + "' title='Return to text'>" +
+        n + "</a>. " + note + "</div>";
+      var id =spans[i].getAttribute("id");
+      if (id != null) refs["#"+id] = n;
+    }
+  }
+  if (n == 0)
+    noteholder.parentNode.removeChild(noteholder);
+  else {
+    // Process footnoterefs.
+    for (i=0; i<spans.length; i++) {
+      if (spans[i].className == "footnoteref") {
+        var href = spans[i].getElementsByTagName("a")[0].getAttribute("href");
+        href = href.match(/#.*/)[0];  // Because IE return full URL.
+        n = refs[href];
+        spans[i].innerHTML =
+          "[<a href='#_footnote_" + n +
+          "' title='View footnote' class='footnote'>" + n + "</a>]";
+      }
+    }
+  }
+},
+
+install: function(toclevels) {
+  var timerId;
+
+  function reinstall() {
+    asciidoc.footnotes();
+    if (toclevels) {
+      asciidoc.toc(toclevels);
+    }
+  }
+
+  function reinstallAndRemoveTimer() {
+    clearInterval(timerId);
+    reinstall();
+  }
+
+  timerId = setInterval(reinstall, 500);
+  if (document.addEventListener)
+    document.addEventListener("DOMContentLoaded", reinstallAndRemoveTimer, false);
+  else
+    window.onload = reinstallAndRemoveTimer;
+}
+
+}
+asciidoc.install();
+/*]]>*/
+</script>
+</head>
+<body class="article">
+<div id="header">
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_preface">PREFACE</h2>
+<div class="sectionbody">
+<div class="paragraph"><div class="title">1</div><p><span class="footnote" id="_footnote_fn1"><br />[I have already observed more than once&comma; that this History of the Jewish War was Josephus&#8217;s first work&comma; and published about A.D. 75&comma; when he was but thirty-eight years of age; and that when he wrote it&comma; he was not thoroughly acquainted with several circumstances of history from the days of Antiochus Epiphanes&comma; with which it begins&comma; till near his own times&comma; contained in the first and former part of the second book&comma; and so committed many involuntary errors therein. That he published his Antiquities eighteen years afterward&comma; in the thirteenth year of Domitian&comma; A.D. 93&comma; when he was much more completely acquainted with those ancient times&comma; and after he had perused those most authentic histories&comma; the First Book of Maccabees&comma; and the Chronicles of the Priesthood of John Hyrcanus&comma; etc. That accordingly he then reviewed those parts of this work&comma; and gave the public a more faithful&comma; complete&comma; and accurate account of the facts therein related; and honestly corrected the errors he had before run into.]<br /></span> Whereas the war which the Jews made with the Romans hath been the greatest of all those, not only that have been in our times, but, in a manner, of those that ever were heard of; both of those wherein cities have fought against cities, or nations against nations; while some men who were not concerned in the affairs themselves have gotten together vain and contradictory stories by hearsay, and have written them down after a sophistical manner; and while those that were there present have given false accounts of things, and this either out of a humor of flattery to the Romans, or of hatred towards the Jews; and while their writings contain sometimes accusations, and sometimes encomiums, but no where the accurate truth of the facts; I have proposed to myself, for the sake of such as live under the government of the Romans, to translate those books into the Greek tongue, which I formerly composed in the language of our country, and sent to the Upper Barbarians; <span class="footnote" id="_footnote_fn2"><br />[Who these Upper Barbarians&comma; remote from the sea&comma; were&comma; Josephus himself will inform us&comma; sect. 2&comma; viz. the Parthians and Babylonians&comma; and remotest Arabians (of the Jews among them); besides the Jews beyond Euphrates&comma; and the Adiabeni&comma; or Assyrians. Whence we also learn that these Parthians&comma; Babylonians&comma; the remotest Arabians&comma; (or at least the Jews among them&comma;) as also the Jews beyond Euphrates&comma; and the Adiabeni&comma; or Assyrians&comma; understood Josephus&#8217;s Hebrew&comma; or rather Chaldaic&comma; books of The Jewish War&comma; before they were put into the Greek language.]<br /></span> Joseph, the son of Matthias, by birth a Hebrew, a priest also, and one who at first fought against the Romans myself, and was forced to be present at what was done afterwards, [am the author of this work].</p></div>
+<div class="paragraph"><div class="title">2</div><p>Now at the time when this great concussion of affairs happened, the affairs of the Romans were themselves in great disorder.</p></div>
+<div class="paragraph"><p>Those Jews also who were for innovations, then arose when the times were disturbed; they were also in a flourishing condition for strength and riches, insomuch that the affairs of the East were then exceeding tumultuous, while some hoped for gain, and others were afraid of loss in such troubles; for the Jews hoped that all of their nation which were beyond Euphrates would have raised an insurrection together with them.</p></div>
+<div class="paragraph"><p>The Gauls also, in the neighborhood of the Romans, were in motion, and the Geltin were not quiet; but all was in disorder after the death of Nero.</p></div>
+<div class="paragraph"><p>And the opportunity now offered induced many to aim at the royal power; and the soldiery affected change, out of the hopes of getting money.</p></div>
+<div class="paragraph"><p>I thought it therefore an absurd thing to see the truth falsified in affairs of such great consequence, and to take no notice of it; but to suffer those Greeks and Romans that were not in the wars to be ignorant of these things, and to read either flatteries or fictions, while the Parthians, and the Babylonians, and the remotest Arabians, and those of our nation beyond Euphrates, with the Adiabeni, by my means, knew accurately both whence the war begun, what miseries it brought upon us, and after what manner it ended.</p></div>
+<div class="paragraph"><div class="title">3</div><p>It is true, these writers have the confidence to call their accounts histories; wherein yet they seem to me to fail of their own purpose, as well as to relate nothing that is sound.</p></div>
+<div class="paragraph"><p>For they have a mind to demonstrate the greatness of the Romans, while they still diminish and lessen the actions of the Jews, as not discerning how it cannot be that those must appear to be great who have only conquered those that were little.</p></div>
+<div class="paragraph"><p>Nor are they ashamed to overlook the length of the war, the multitude of the Roman forces who so greatly suffered in it, or the might of the commanders, whose great labors about Jerusalem will be deemed inglorious, if what they achieved be reckoned but a small matter.</p></div>
+<div class="paragraph"><div class="title">4</div><p>However, I will not go to the other extreme, out of opposition to those men who extol the Romans nor will I determine to raise the actions of my countrymen too high; but I will prosecute the actions of both parties with accuracy.</p></div>
+<div class="paragraph"><p>Yet shall I suit my language to the passions I am under, as to the affairs I describe, and must be allowed to indulge some lamentations upon the miseries undergone by my own country.</p></div>
+<div class="paragraph"><p>For that it was a seditious temper of our own that destroyed it, and that they were the tyrants among the Jews who brought the Roman power upon us, who unwillingly attacked us, and occasioned the burning of our holy temple, Titus Caesar, who destroyed it, is himself a witness, who, daring the entire war, pitied the people who were kept under by the seditious, and did often voluntarily delay the taking of the city, and allowed time to the siege, in order to let the authors have opportunity for repentance.</p></div>
+<div class="paragraph"><p>But if any one makes an unjust accusation against us, when we speak so passionately about the tyrants, or the robbers, or sorely bewail the misfortunes of our country, let him indulge my affections herein, though it be contrary to the rules for writing history; because it had so come to pass, that our city Jerusalem had arrived at a higher degree of felicity than any other city under the Roman government, and yet at last fell into the sorest of calamities again.</p></div>
+<div class="paragraph"><p>Accordingly, it appears to me that the misfortunes of all men, from the beginning of the world, if they be compared to these of the Jews <span class="footnote" id="_footnote_fn3"><br />[That these calamities of the Jews&comma; who were our Savior&#8217;s murderers&comma; were to be the greatest that had ever been seen the beginning of the world&comma; our Savior had directly foretold&comma; Matthew 24:21; Mark 13:19; Luke 21:23&comma; 24; and that they proved to be such accordingly&comma; Josephus is here a most authentic witness.]<br /></span> are not so considerable as they were; while the authors of them were not foreigners neither.</p></div>
+<div class="paragraph"><p>This makes it impossible for me to contain my lamentations.</p></div>
+<div class="paragraph"><p>But if any one be inflexible in his censures of me, let him attribute the facts themselves to the historical part, and the lamentations to the writer himself only.</p></div>
+<div class="paragraph"><div class="title">5</div><p>However, I may justly blame the learned men among the Greeks, who, when such great actions have been done in their own times, which, upon the comparison, quite eclipse the old wars, do yet sit as judges of those affairs, and pass bitter censures upon the labors of the best writers of antiquity; which moderns, although they may be superior to the old writers in eloquence, yet are they inferior to them in the execution of what they intended to do.</p></div>
+<div class="paragraph"><p>While these also write new histories about the Assyrians and Medes, as if the ancient writers had not described their affairs as they ought to have done; although these be as far inferior to them in abilities as they are different in their notions from them.</p></div>
+<div class="paragraph"><p>For of old every one took upon them to write what happened in his own time; where their immediate concern in the actions made their promises of value; and where it must be reproachful to write lies, when they must be known by the readers to be such.</p></div>
+<div class="paragraph"><p>But then, an undertaking to preserve the memory Of what hath not been before recorded, and to represent the affairs of one&#8217;s own time to those that come afterwards, is really worthy of praise and commendation.</p></div>
+<div class="paragraph"><p>Now he is to be esteemed to have taken good pains in earnest, not who does no more than change the disposition and order of other men&#8217;s works, but he who not only relates what had not been related before, but composes an entire body of history of his own: accordingly, I have been at great charges, and have taken very great pains [about this history], though I be a foreigner; and do dedicate this work, as a memorial of great actions, both to the Greeks and to the Barbarians.</p></div>
+<div class="paragraph"><p>But for some of our own principal men, their mouths are wide open, and their tongues loosed presently, for gain and law-suits, but quite muzzled up when they are to write history, where they must speak truth and gather facts together with a great deal of pains; and so they leave the writing such histories to weaker people, and to such as are not acquainted with the actions of princes.</p></div>
+<div class="paragraph"><p>Yet shall the real truth of historical facts be preferred by us, how much soever it be neglected among the Greek historians.</p></div>
+<div class="paragraph"><div class="title">6</div><p>To write concerning the Antiquities of the Jews, who they were [originally], and how they revolted from the Egyptians, and what country they traveled over, and what countries they seized upon afterward, and how they were removed out of them, I think this not to be a fit opportunity, and, on other accounts, also superfluous; and this because many Jews before me have composed the histories of our ancestors very exactly; as have some of the Greeks done it also, and have translated our histories into their own tongue, and have not much mistaken the truth in their histories.</p></div>
+<div class="paragraph"><p>But then, where the writers of these affairs and our prophets leave off, thence shall I take my rise, and begin my history.</p></div>
+<div class="paragraph"><p>Now as to what concerns that war which happened in my own time, I will go over it very largely, and with all the diligence I am able; but for what preceded mine own age, that I shall run over briefly.</p></div>
+<div class="paragraph"><div class="title">7</div><p>[For example, I shall relate] how Antiochus, who was named Epiphanes, took Jerusalem by force, and held it three years and three months, and was then ejected out of the country by the sons of Asamoneus: after that, how their posterity quarreled about the government, and brought upon their settlement the Romans and Pompey; how Herod also, the son of Antipater, dissolved their government, and brought Sosins upon them; as also how our people made a sedition upon Herod&#8217;s death, while Augustus was the Roman emperor, and Quintilius Varus was in that country; and how the war broke out in the twelfth year of Nero, with what happened to Cestius; and what places the Jews assaulted in a hostile manner in the first sallies of the war.</p></div>
+<div class="paragraph"><div class="title">8</div><p>As also [I shall relate] how they built walls about the neighboring cities; and how Nero, upon Cestius&#8217;s defeat, was in fear of the entire event of the war, and thereupon made Vespasian general in this war; and how this Vespasian, with the elder of his sons <span class="footnote" id="_footnote_fn4"><br />[Titus.]<br /></span> made an expedition into the country of Judea; what was the number of the Roman army that he made use of; and how many of his auxiliaries were cut off in all Galilee; and how he took some of its cities entirely, and by force, and others of them by treaty, and on terms.</p></div>
+<div class="paragraph"><p>Now, when I am come so far, I shall describe the good order of the Romans in war, and the discipline of their legions; the amplitude of both the Galilees, with its nature, and the limits of Judea.</p></div>
+<div class="paragraph"><p>And, besides this, I shall particularly go over what is peculiar to the country, the lakes and fountains that are in them, and what miseries happened to every city as they were taken; and all this with accuracy, as I saw the things done, or suffered in them.</p></div>
+<div class="paragraph"><p>For I shall not conceal any of the calamities I myself endured, since I shall relate them to such as know the truth of them.</p></div>
+<div class="paragraph"><div class="title">9</div><p>After this, [I shall relate] how, When the Jews' affairs were become very bad, Nero died, and Vespasian, when he was going to attack Jerusalem, was called back to take the government upon him; what signs happened to him relating to his gaining that government, and what mutations of government then happened at Rome, and how he was unwillingly made emperor by his soldiers; and how, upon his departure to Egypt, to take upon him the government of the empire, the affairs of the Jews became very tumultuous; as also how the tyrants rose up against them, and fell into dissensions among themselves.</p></div>
+<div class="paragraph"><div class="title">10</div><p>Moreover, [I shall relate] how Titus marched out of Egypt into Judea the second time; as also how, and where, and how many forces he got together; and in what state the city was, by the means of the seditious, at his coming; what attacks he made, and how many ramparts he cast up; of the three walls that encompassed the city, and of their measures; of the strength of the city, and the structure of the temple and holy house; and besides, the measures of those edifices, and of the altar, and all accurately determined.</p></div>
+<div class="paragraph"><p>A description also of certain of their festivals, and seven purifications of purity, <span class="footnote" id="_footnote_fn5"><br />[These seven&comma; or rather five&comma; degrees of purity&comma; or purification&comma; are enumerated hereafter&comma; B. V. ch. 5. sect. 6. The Rabbins make ten degrees of them&comma; as Reland there informs us.]<br /></span> and the sacred ministrations of the priests, with the garments of the priests, and of the high priests; and of the nature of the most holy place of the temple; without concealing any thing, or adding any thing to the known truth of things.</p></div>
+<div class="paragraph"><div class="title">11</div><p>After this, I shall relate the barbarity of the tyrants towards the people of their own nation, as well as the indulgence of the Romans in sparing foreigners; and how often Titus, out of his desire to preserve the city and the temple, invited the seditious to come to terms of accommodation.</p></div>
+<div class="paragraph"><p>I shall also distinguish the sufferings of the people, and their calamities; how far they were afflicted by the sedition, and how far by the famine, and at length were taken.</p></div>
+<div class="paragraph"><p>Nor shall I omit to mention the misfortunes of the deserters, nor the punishments inflicted on the captives; as also how the temple was burnt, against the consent of Caesar; and how many sacred things that had been laid up in the temple were snatched out of the fire; the destruction also of the entire city, with the signs and wonders that went before it; and the taking the tyrants captives, and the multitude of those that were made slaves, and into what different misfortunes they were every one distributed.</p></div>
+<div class="paragraph"><p>Moreover, what the Romans did to the remains of the wall; and how they demolished the strong holds that were in the country; and how Titus went over the whole country, and settled its affairs; together with his return into Italy, and his triumph.</p></div>
+<div class="paragraph"><div class="title">12</div><p>I have comprehended all these things in seven books, and have left no occasion for complaint or accusation to such as have been acquainted with this war; and I have written it down for the sake of those that love truth, but not for those that please themselves [with fictitious relations].</p></div>
+<div class="paragraph"><p>And I will begin my account of these things with what I call my First Chapter.</p></div>
+</div>
+</div>
+</div>
+<div id="footnotes"><hr /></div>
+<div id="footer">
+<div id="footer-text">
+Last updated
+ 2019-09-17 22:31:09 EDT
+</div>
+</div>
+</body>
+</html>
