@@ -1,6 +1,6 @@
 = Texts
 
-link:../index.txt[Home]
+link:../index.html[Home]
 
 == Josephus
 - link:Josephus0090Antiquities/index.html[Antiquities of the Jews 90AD]
