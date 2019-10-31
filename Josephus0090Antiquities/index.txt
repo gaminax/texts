@@ -4,9 +4,9 @@ link:../../index.txt[Religion/]
 link:../index.txt[Texts/]
 Josephus0090Antiquities
 
-link:book00-toc.html[]
+// link:book00-toc.html[]
 
-link:book00-prefacerr.html[]
+// link:book00-prefacerr.html[]
 
 [cols="1,2,3,5"]
 |===
