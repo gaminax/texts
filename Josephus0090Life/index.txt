@@ -6,10 +6,13 @@ AD 95, assumed
 // - link:foo.html[foo html]
 // - link:life.ad.txt[life txt]
 // - link:life.ad.html[life html ]
-- link:life_ad.txt[life_ad txt]
-- link:life_ad.html[life_ad html]
-- link:life.rimu.txt[life rimu txt]
-- link:life.rimu.html[life rimu html]
+
+// - link:life_ad.txt[life_ad txt]
+// asciidoc version:
+- link:life_ad.html[life complete text]
+
+// - link:life.rimu.txt[life rimu txt]
+// - link:life.rimu.html[life rimu html]
 
 .Life: Synopsis
 [cols=">1,12", borders="none"]
