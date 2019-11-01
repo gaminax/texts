@@ -9,7 +9,7 @@ AD 95, assumed
 
 // - link:life_ad.txt[life_ad txt]
 // asciidoc version:
-- link:life_ad.html[life complete text]
+- link:life_ad.html[Life complete text]
 
 // - link:life.rimu.txt[life rimu txt]
 // - link:life.rimu.html[life rimu html]
