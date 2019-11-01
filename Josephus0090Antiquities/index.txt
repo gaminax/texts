@@ -1,7 +1,7 @@
 = Josephus 90AD Antiquities
 
-link:../../index.txt[Religion/]
-link:../index.txt[Texts/]
+link:../../index.html[Religion/]
+link:../index.html[Texts/]
 Josephus0090Antiquities
 
 // link:book00-toc.html[]
