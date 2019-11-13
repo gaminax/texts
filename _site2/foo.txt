@@ -1,0 +1,22 @@
+== FOO
+:page-title: Foo
+:sectnums:
+:toc:
+
+
+....
+:FN1: footnoteref:[fn1, This is footnote1]
+:FN2: footnote:fn2[This is footnote2.]
+:FN4: footnoteref:[4, By the Red Sea is not here meant the Arabian Gulf, which alone we now call by that name, but all that South Sea, which included the Red Sea, and the Persian Gulf, as far as the East Indies; as Reland and Hudson here truly note, from the old geographers.]
+:FN5: footnoteref:[5, Hence it appears, that Josephus thought several, at least, of the brute animals, particularly the serpent, could speak before the fall. And I think few of the more perfect kinds of those animals want the organs of speech at this day. Many inducements there are also to a notion, that the present state they are in, is not their original state; and that their capacities have been once much greater than we now see them, and are capable of being restored to their former condition. But as to this most ancient, and authentic, and probably allegorical account of that grand affair of the fall of our first parents, I have somewhat more to say in way of conjecture, but being only a conjecture, I omit it: only thus far, that the imputation of the sin of our first parents to their posterity, any further than as some way the cause or occasion of man's mortality, seems almost entirely groundless; and that both man, and the other subordinate creatures, are hereafter to be delivered from the curse then brought upon them, and at last to be delivered from that bondage of corruption, Romans 8:19-22.]
+....
+
+
+There are several ways of writing footnotes.
+
+This is one of them.{FN1}
+And this is another.{FN2}
+And yet another.footnote:fn2[].
+And so it goes.
+
+

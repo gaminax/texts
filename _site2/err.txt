@@ -1,0 +1,1 @@
+asciidoctor: WARNING: found deprecated footnoteref macro: footnoteref:[fn1, This is footnote1]; use footnote macro with target instead

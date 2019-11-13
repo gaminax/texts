@@ -1,0 +1,14 @@
+description: gaminax/texts
+theme: minima
+github_username: gaminax
+github: [metadata]
+exclude: [docs]
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-asciidoc
+
+asciidoc:
+    ext: ad, adoc, asciidoc
+
