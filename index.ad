@@ -1,7 +1,9 @@
 = Texts
 :page-layout: default
+:page-title: texts
 
-link:../index.html[Home]
+link:../../index.html[Home/]
+texts/
 
 == Josephus
 Josephus witnessed and wrote about the destruction of Jerusalem in AD 70.

@@ -3,6 +3,7 @@ theme: minima
 github_username: gaminax
 github: [metadata]
 exclude: [docs]
+url: texts
 
 plugins:
  - jekyll-feed
