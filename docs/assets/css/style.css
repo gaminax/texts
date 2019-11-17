@@ -282,6 +282,8 @@ table td { border: 1px solid #e8e8e8; }
 
 .highlight .il { color: #099; }
 
+* { background-color: #030; }
+
 a { color: #aa0; }
 
 a:visited { color: #880; }
@@ -293,6 +295,8 @@ blockquote { color: #888; }
 table { color: #ccc; }
 
 table tr:nth-child(even) { background-color: #003800; }
+
+table th { background-color: #003a00; }
 
 h1, h2, h3, h4, h5 { font-family: 'IBM Plex Sans', sans-serif; color: #faa; }
 
