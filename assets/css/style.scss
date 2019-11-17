@@ -1,0 +1,38 @@
+---
+---
+
+@import "minima";
+a { color: #aa0;
+  &:visited { color: #880; }
+  &:hover { color: #eee; } }
+blockquote { color: #888; }
+table { color: #ccc; }
+table { tr { &:nth-child(even) { background-color: #003800; } } }
+h1 , h2 , h3, h4, h5 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #faa;
+//     color: $brand-color;
+}
+body {
+    font-family: 'IBM Plex Serif', 'Noto Serif', serif ;
+    color: #ccc;
+    background-color:#030;
+//    color: #bbb;
+//    background-color:#323;
+}
+// a { color: #29f; }
+pre, code { background-color: #050; }
+.site-title { &,&:visited { color: #aaa; } }
+.site-nav { background-color: #030;
+  .menu-icon  { > svg path { fill: #888; } }
+  .page-link { color: #bbb; }
+}
+.footer-col-wrapper {
+    color: #bbb;
+}
+.post-meta { color: #bbb; }
+
+
+// syntax-highlighting
+.highlight { background: #050; }
+.highlighter-rouge .highlight { background: #050; }
